@@ -1,21 +1,10 @@
-let valorA = 10
-let valorB = 20
-<<<<<<< HEAD
+let a = 10
+let b = 20
 
-let temporario
-temporario = valorA
-valorA = valorB
-valorB = temporario
+let temp
+temp = a
+a = b
+b = temp
 
-console.log(`valor a é: ${valorA}`)
-console.log(`valor b é: ${valorB}`)
-=======
-let troca
-
-troca = valorA
-valorA = valorB
-valorB = troca
-
-console.log(`o valor A mudou para: ${valorA}`)
-console.log(`o valor B mudou para: ${valorB}`)
->>>>>>> 0f931ccc8781b9a1b4594bd7ad67d016f0afd6f4
+console.log(`A letra A agora é: ${a}`)
+console.log(`A letra B agora é: ${b}`)
