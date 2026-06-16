@@ -1,13 +1,10 @@
 let valorA = 10
 let valorB = 20
-let troca = 0
 
-if (troca = 0) {
-    valorA = 20
-    valorB = 10    
-    }
+let temporario
+temporario = valorA
+valorA = valorB
+valorB = temporario
 
-if (valorA == 20, valorB == 10) {
-    console.log(`O valor de a foi alterado para ${valorA}`)
-    console.log(`O valor de b foi alterado para ${valorB}`)
-}
+console.log(`valor a é: ${valorA}`)
+console.log(`valor b é: ${valorB}`)
