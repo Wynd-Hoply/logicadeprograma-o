@@ -8,7 +8,7 @@ else {
     console.log(`O número é positivo`)
     }   
     else {
-        if (n1 == null) {
+        if (n1 == 0) {
         console.log(`O número é nulo`)
         }
     }
