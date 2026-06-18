@@ -1,10 +1,10 @@
-let bathGender = "S"
+let bathGender = "helicóptero de combate".toUpperCase();
 
 switch (bathGender) {
-    case "M":
+    case "MASCULINO":
         console.log("Banheiro masculino à direita")
         break;
-    case "F":
+    case "FEMININO":
         console.log("Banheiro feminino à esquerda")
         break;
     default:
