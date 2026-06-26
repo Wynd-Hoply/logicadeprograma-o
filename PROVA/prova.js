@@ -42,8 +42,6 @@ for (let i = 0; i < produtos.length; i++) {
 console.log("==========================")
 
 while (i < produtos.length) {
-    k = j
-    l = i
     if (calcularValorEstoque(produtos[i]) > 500) {
         acimaDe500++
     }
